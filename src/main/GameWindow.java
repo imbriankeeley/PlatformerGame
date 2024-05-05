@@ -3,7 +3,7 @@ package main;
 import javax.swing.*;
 
 public class GameWindow {
-    final private JFrame frame;
+    private JFrame frame;
 
     public GameWindow(GamePanel gamePanel) {
 
