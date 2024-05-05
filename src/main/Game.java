@@ -2,10 +2,12 @@ package main;
 
 public class Game {
 
-    private GameWindow gameWindow;
+    final private GameWindow gameWindow;
+    final private GamePanel gamePanel;
 
     public Game() {
-        gameWindow = new GameWindow();
+        gamePanel = new GamePanel();
+        gameWindow = new GameWindow(gamePanel);
 
 
     }
